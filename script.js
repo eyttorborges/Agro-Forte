@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte Sustentável</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            Agro Forte Sustentável
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <div class="menu-mobile">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Construindo um Futuro Sustentável para o Agro</h1>
+
+            <p>
+                Promovendo inovação, preservação ambiental e produção
+                responsável para fortalecer o agronegócio brasileiro.
+            </p>
+
+            <a href="#sobre" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="">
+        </div>
+
+        <div class="sobre-texto">
+            <h2>Sobre o Agro Sustentável</h2>
+
+            <p>
+                A sustentabilidade no agronegócio é fundamental para garantir
+                a produção de alimentos sem comprometer os recursos naturais.
+                A adoção de tecnologias modernas e práticas conscientes
+                permite aumentar a produtividade preservando o meio ambiente.
+            </p>
+
+            <p>
+                O Agro Forte Sustentável incentiva iniciativas voltadas para
+                conservação do solo, uso racional da água e energias limpas.
+            </p>
+        </div>
+    </section>
+
+    <!-- SUSTENTABILIDADE -->
+    <section class="sustentabilidade" id="sustentabilidade">
+
+        <h2>Práticas Sustentáveis</h2>
+
+        <div class="cards">
+
+            <div class="card reveal">
+                <i class="fas fa-leaf"></i>
+                <h3>Preservação Ambiental</h3>
+                <p>
+                    Proteção da biodiversidade e recuperação de áreas naturais.
+                </p>
+            </div>
+
+            <div class="card reveal">
+                <i class="fas fa-water"></i>
+                <h3>Uso Consciente da Água</h3>
+                <p>
+                    Sistemas eficientes de irrigação e reaproveitamento.
+                </p>
+            </div>
+
+            <div class="card reveal">
+                <i class="fas fa-seedling"></i>
+                <h3>Agricultura de Baixo Impacto</h3>
+                <p>
+                    Técnicas modernas que reduzem impactos ambientais.
+                </p>
+            </div>
+
+            <div class="card reveal">
+                <i class="fas fa-solar-panel"></i>
+                <h3>Energia Renovável</h3>
+                <p>
+                    Uso de energia solar e outras fontes limpas.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="projetos" id="projetos">
+
+        <h2>Projetos Sustentáveis</h2>
+
+        <div class="galeria">
+
+            <div class="projeto">
+                <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399" alt="">
+            </div>
+
+            <div class="projeto">
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="">
+            </div>
+
+            <div class="projeto">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="">
+            </div>
+
+            <div class="projeto">
+                <img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ESTATÍSTICAS -->
+    <section class="estatisticas">
+
+        <div class="stat">
+            <h3 class="counter" data-target="25000">0</h3>
+            <p>Árvores Plantadas</p>
+        </div>
+
+        <div class="stat">
+            <h3 class="counter" data-target="1800">0</h3>
+            <p>Hectares Recuperados</p>
+        </div>
+
+        <div class="stat">
+            <h3 class="counter" data-target="850">0</h3>
+            <p>Produtores Parceiros</p>
+        </div>
+
+        <div class="stat">
+            <h3 class="counter" data-target="12000">0</h3>
+            <p>Toneladas de CO₂ Reduzidas</p>
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+
+        <h2>Entre em Contato</h2>
+
+        <form id="formContato">
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Seu nome">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Seu e-mail">
+
+            <textarea
+                id="mensagem"
+                placeholder="Sua mensagem"></textarea>
+
+            <button type="submit">
+                Enviar Mensagem
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Agro Forte Sustentável</h3>
+
+        <div class="social">
+
+            <a href="#"><i class="fab fa-facebook"></i></a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+        </div>
+
+        <p>
+            © 2026 Agro Forte Sustentável.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
